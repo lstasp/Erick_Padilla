@@ -30,7 +30,10 @@ public class ServletControl extends HttpServlet {
                     break;
                     
                 case "IngresarRequerimiento.jsp":
-                    
+                    ingresarRequerimiento(request, response);
+                    break;
+                default:
+                    procesarLogin(request, response);
                     break;
             }
 
