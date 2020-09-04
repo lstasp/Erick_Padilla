@@ -120,5 +120,9 @@ public class ServletControl extends HttpServlet {
             throws ServletException, IOException {
         response.sendRedirect("login.jsp");
     }
+    
+    public int suma(int num1, int num2) {
+        return num1 + num2;
+    } 
 
 }
